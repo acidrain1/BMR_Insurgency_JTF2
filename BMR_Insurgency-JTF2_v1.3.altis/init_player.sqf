@@ -210,3 +210,11 @@ if (DebugEnabled > 0) then {
 		};
 	};
 };
+
+[] execVM "scripts\QS_icons.sqf";
+["InitializePlayer",[player]] call BIS_fnc_dynamicGroups;
+["Preload"] call BIS_fnc_arsenal;
+[] spawn {
+	sleep 10;
+	hintSilent 'Press U to open Group Manager. Press T for Graphic Settings, Digital Heading and HUD';
+};

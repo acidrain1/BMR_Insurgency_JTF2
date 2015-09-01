@@ -63,7 +63,7 @@ player createDiaryRecord ["Diary", ["INFO","
 	<br />-- Settings --
 	<br />
 	-------------------
-	<br />Press U key for Graphic Settings, Digital Heading and HUD. Squads are set in lobby but can be altered by holding T Key Scroll. Use target cursor to select players. Supported PIP live feeds from the helmet-cameras of their fellow group members. Requires Tactical Glasses. * - Activates camera / switches to next group member. Alt+* - Deactivates camera. Shift+* - Toggles size of the display.
+	<br />Press T key for Graphic Settings, Digital Heading and HUD. Squads are set in lobby but can be altered by holding T Key Scroll. Use target cursor to select players. Supported PIP live feeds from the helmet-cameras of their fellow group members. Requires Tactical Glasses. * - Activates camera / switches to next group member. Alt+* - Deactivates camera. Shift+* - Toggles size of the display.
 	<br />
 	-------------------  
 	<br />-- Support --

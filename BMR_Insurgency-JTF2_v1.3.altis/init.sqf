@@ -205,7 +205,5 @@ if (!isDedicated && hasInterface) then
 
 		call compile preprocessFile "init_player.sqf";
 		[] call compile preprocessFile "UI\HUD.sqf";
-		0 = [] execVM 'scripts\group_manager.sqf';
-		0 = [] execVM 'scripts\player_markers.sqf';
 	};
 };

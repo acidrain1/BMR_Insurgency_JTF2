@@ -32,7 +32,7 @@ INS_intro = {
 	_cam camSetPos [position player select 0, position player select 1, 2.2];
 	_cam camCommit 3;
 	playSound "introfx";
-	player sideChat "Press U key for Graphic Settings, Digital Heading and HUD";
+	player sideChat "Press U to open Group Manager. Press T for Graphic Settings, Digital Heading and HUD";
 	player sideChat "Initialization Complete";
 	waitUntil {camcommitted _cam};
 	player cameraEffect ["terminate","back"];
@@ -78,7 +78,7 @@ INS_intro_op4 = {
 	player cameraEffect ["terminate","back"];
 	UIsleep 0.5;
 	player sideChat "Initialization Complete";	
-	player sideChat "Press U key for Graphic Settings, Digital Heading and HUD";	
+	player sideChat "Press U to open Group Manager. Press T for Graphic Settings, Digital Heading and HUD";	
 	setViewDistance -1;
 	camDestroy _cam;
 	enableRadio true;

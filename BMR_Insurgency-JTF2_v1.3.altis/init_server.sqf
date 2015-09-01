@@ -128,4 +128,6 @@ if (DebugEnabled isEqualTo 1) then {
 	};
 };
 
+["Initialize"] call BIS_fnc_dynamicGroups;
+
 //BMR_server_initialized = true;publicVariable "BMR_server_initialized";

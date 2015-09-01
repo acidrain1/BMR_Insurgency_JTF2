@@ -15,8 +15,8 @@ keyPress_U = false;
 
 switch (_Key) do {
 
-// U
-case 22: {
+// T
+case 20: {
 if (!_Shift && !_Ctrl && !_Alt) then {
 if (!keyPress_U) then {keyPress_U = true; _handled = true; closeDialog 0; createDialog "DH_U_Menu";} else {keyPress_U = false;};
 };
